@@ -35,6 +35,8 @@ public class FirstFragment extends Fragment implements Listener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentFirstBinding.inflate(getLayoutInflater());
+        requireActivity().setTitle("Continents");
+
         return binding.getRoot();
     }
 
